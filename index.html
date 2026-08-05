@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turtwig</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #eaf6e9;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #10241a; --card: #16301f; }
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  .card {
+    background: var(--card);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  svg { width: min(70vw, 420px); height: auto; }
+  h1 {
+    margin-top: 1rem;
+    color: #3a6b35;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of Turtwig">
+      <!-- leaf on head -->
+      <path d="M200 30 C170 40 150 70 160 105 C185 100 210 80 210 50 C210 40 205 32 200 30 Z" fill="#3f9142" stroke="#2c6b2f" stroke-width="4"/>
+      <path d="M182 55 C190 65 195 78 197 92" fill="none" stroke="#2c6b2f" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- shell -->
+      <ellipse cx="200" cy="230" rx="130" ry="105" fill="#4caf50" stroke="#2f6b32" stroke-width="6"/>
+      <path d="M110 200 Q200 150 290 200" fill="none" stroke="#2f6b32" stroke-width="5"/>
+      <path d="M100 250 Q200 300 300 250" fill="none" stroke="#2f6b32" stroke-width="5"/>
+      <path d="M170 145 L170 305" fill="none" stroke="#2f6b32" stroke-width="5"/>
+      <path d="M230 145 L230 305" fill="none" stroke="#2f6b32" stroke-width="5"/>
+
+      <!-- head -->
+      <ellipse cx="200" cy="150" rx="80" ry="65" fill="#8bd57e" stroke="#3f8a3f" stroke-width="6"/>
+
+      <!-- eyes -->
+      <circle cx="170" cy="140" r="16" fill="#fff" stroke="#2c2c2c" stroke-width="3"/>
+      <circle cx="230" cy="140" r="16" fill="#fff" stroke="#2c2c2c" stroke-width="3"/>
+      <circle cx="172" cy="142" r="6" fill="#2c2c2c"/>
+      <circle cx="232" cy="142" r="6" fill="#2c2c2c"/>
+
+      <!-- mouth -->
+      <path d="M180 175 Q200 190 220 175" fill="none" stroke="#2c2c2c" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- legs -->
+      <ellipse cx="115" cy="330" rx="30" ry="22" fill="#8bd57e" stroke="#3f8a3f" stroke-width="5"/>
+      <ellipse cx="285" cy="330" rx="30" ry="22" fill="#8bd57e" stroke="#3f8a3f" stroke-width="5"/>
+
+      <!-- belly -->
+      <ellipse cx="200" cy="255" rx="70" ry="50" fill="#f4e3a1" stroke="#d8bf6f" stroke-width="4"/>
+    </svg>
+    <h1>Turtwig</h1>
+  </div>
+</body>
+</html>
